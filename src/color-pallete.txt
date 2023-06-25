@@ -1,0 +1,5 @@
+#0B0033 Russian Violet
+#370031 Dark purple
+#832232 Claret
+#CE8964 Persian orange
+#EAF27C Mindaro

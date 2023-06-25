@@ -1,0 +1,33 @@
+.profile-container {
+    width: 100%;
+    padding: 10px;
+}
+
+.alert-profile {
+    width: 80%;
+    position: fixed;
+    top: 120px;
+    left: 200px;
+    z-index: 9999;
+}
+
+.profile-title h1 {
+    background-color: white;
+    color: #0B0033;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.card-active-hover:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.buttons-container {
+    width: 100%;
+    text-align: center;
+}
+
+.buttons-container button {
+    margin: 5px;
+}

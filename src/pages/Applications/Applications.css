@@ -1,0 +1,20 @@
+.card-job {
+    background-color: #0B0033;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.card-job:hover {
+    background-color: white;
+    color: #0B0033;
+    transform: translateX(5%);
+    transition: all 0.3s ease;
+}
+
+.applications-title h1 {
+    background-color: white;
+    color: #0B0033;
+    padding: 15px;
+    border-radius: 30px;
+}

@@ -1,0 +1,70 @@
+.form-container {
+  margin-top: 20px;
+  color: #EAF27C;
+  padding: 20px;
+}
+
+.form-container h2 {
+  text-align: center;
+}
+
+.button-form {
+  margin-top: 15px;
+  width: 100%;
+  text-align: center;
+}
+
+.button-form button {
+  width: 20%;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.form-col {
+  margin: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type='text'],
+input[type='radio'] {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type='radio'] {
+  margin-right: 10px;
+}
+
+input[type='radio']:hover {
+  cursor: pointer;
+}
+
+input[type='radio']:checked + label {
+  font-weight: bold;
+}
+
+input[type='radio'] + label:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.error-field {
+  width: 30%;
+  margin: auto;
+  text-align: center;
+  margin-top: 10px;
+  padding: 5px;
+  color: red;
+  border-radius: 30px;
+}

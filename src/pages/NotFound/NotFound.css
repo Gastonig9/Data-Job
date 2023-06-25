@@ -1,0 +1,23 @@
+.not-found-container {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.error-image {
+  width: 300px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.error-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #f00;
+}
+
+.error-message {
+  font-size: 18px;
+  color: #333;
+}

@@ -1,0 +1,95 @@
+.card-contain {
+    width: 75%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #0B0033;
+    border: 4px solid #EAF27C;
+}
+
+.card-contain h5 {
+    color: #EAF27C;
+}
+
+.column-contain {
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 30px;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.button-link {
+    width: 25%;
+    margin: auto;
+    background-color: #CE8964;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.button-link:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+    cursor: pointer;
+    background-color: white;
+}
+
+.button-link .link-job {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.button-see-more {
+    width: 25%;
+    margin: auto;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.button-see-more button {
+    width: 65%;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #0B0033;
+    color: white;
+}
+
+.button-see-more button:hover {
+    background-color: white;
+    color: #000000;
+    transition: all 0.5s ease;
+}
+
+
+/* Loader */
+
+.loader-contain {
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+
+.loader {
+  width: 88px;
+  height: 88px;
+  margin: auto;
+  border: 5px dotted #CE8964;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  left: 330px;
+  box-sizing: border-box;
+  animation: rotation 2s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} 

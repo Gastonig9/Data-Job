@@ -1,0 +1,15 @@
+.description-contain {
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #ffffff;
+    color:rgb(0, 0, 0);
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px;
+}
+
+.description-contain span {
+    color: #EAF27C;
+    text-shadow: 2px 2px brown;
+}

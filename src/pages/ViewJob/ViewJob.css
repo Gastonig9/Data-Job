@@ -1,0 +1,71 @@
+section {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.column-title-fx {
+    width: 100%;
+    padding: 15px;
+    background-color: #0B0033;
+    color:white;
+}
+
+.column-title-fx h6 {
+    display: inline;
+    margin: 5px;
+}
+
+.column-description {
+    width: 50%;
+    padding: 15px;
+    background-color: white;
+}
+
+.column-description button {
+    margin: 5px;
+}
+
+.column-information {
+    width: 50%;
+    padding: 15px;
+    background-color: white;
+    border-left: 2px solid black;
+}
+
+.column-information .information-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.column-information .button-save {
+    width: 30%;
+    margin: auto;
+}
+
+.column-information .button-save button {
+    width: 100%;
+    background-color: white;
+}
+
+.column-information .button-save-active {
+    width: 30%;
+    margin: auto;
+}
+
+.column-information .button-save-active button {
+    width: 100%;
+    background-color: rgb(15, 255, 43);
+    color: rgb(0, 0, 0);
+}
+
+
+.column-information .button-save button:hover {
+    transition: all 0.5s ease;
+    background-color: #EAF27C;
+}
+
+.btn-linkedin a {
+    text-decoration: none;
+    color: white;
+}

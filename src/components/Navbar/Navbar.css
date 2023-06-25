@@ -1,0 +1,91 @@
+.navbar {
+    background-color: #0B0033;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar-logo img {
+    height: 50px;
+    margin-right: 10px;
+  }
+
+  .navbar-title {
+    font-size: 35px;
+    text-shadow: 2px 2px brown;
+    margin-top: 5px;
+    font-weight: bold;
+    font-family: 'IBM Plex Mono', monospace;
+    color: #EAF27C;
+  }
+
+  .navbar-items {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar-items li {
+    margin-right: 10px;
+  }
+
+  .post-job {
+    text-decoration: none;
+  }
+
+  .post-job h6 {
+    background-color: #EAF27C;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    color: black;
+    border-radius: 25px;
+  }
+
+  .post-job h6:hover{
+    background-color: white;
+    transform: scale(1.1);
+  }
+
+  .navbar-login-btn,
+  .navbar-logout-btn {
+    padding: 6px 12px;
+    border: none;
+    background-color: #0B0033;
+    color: white;
+    font-size: 15px;
+    font-family: 'IBM Plex Mono', monospace;
+    cursor: pointer;
+  }
+
+  .navbar-login-btn:hover,
+  .navbar-logout-btn:hover {
+    background-color: white;
+    color: #0B0033;
+  }
+
+  .item-drop {
+    cursor: pointer;
+  }
+
+  .item-drop:hover{
+    background-color: #0B0033;
+    color: white;
+  }
+
+  .item-drop-p {
+    cursor: pointer;
+    color: red;
+  }
+
+  .item-drop-p:hover {
+    background-color: #0B0033;
+    color: red;
+  }
